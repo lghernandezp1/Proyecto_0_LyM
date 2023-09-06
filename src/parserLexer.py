@@ -193,8 +193,6 @@ def isControlStructure(token):
             esCD = False
         elif token.index("{") == -1 or token.index("}") == -1:
             esCD = False
-        elif token[-1] != "fi":
-            esCD == False
         elif isCommand(bloque1) == False:
             esCD = False
         else:
